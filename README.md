@@ -1,6 +1,6 @@
-#Optimisasi Distribusi Bantuan Bencana dengan Algoritma Genetika
+# Optimisasi Distribusi Bantuan Bencana dengan Algoritma Genetika
 
-##Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini adalah sebuah aplikasi web interaktif yang berfungsi sebagai alat bantu keputusan untuk mengoptimalkan distribusi sumber daya (relawan, truk, paket bantuan) ke berbagai posko saat terjadi bencana. Aplikasi ini menggunakan Algoritma Genetika untuk mencari solusi alokasi yang paling efisien dengan tujuan meminimalkan total kekurangan sumber daya. Antarmuka pengguna dibangun menggunakan Streamlit, memungkinkan pengguna untuk menyesuaikan parameter simulasi dan bahkan mengunggah dataset kebutuhan mereka sendiri secara dinamis.
 
