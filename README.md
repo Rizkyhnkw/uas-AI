@@ -18,14 +18,13 @@ Langkah-langkah Instalasi:
 `git clone https://github.com/nama-anda/nama-repo-proyek.git
 cd nama-repo-proyek`
 
-Buat dan aktifkan lingkungan virtual (disarankan):
-Bash
+# Buat dan aktifkan lingkungan virtual (disarankan):
 
-# Untuk Windows
+## Untuk Windows
 `python -m venv venv
 .\venv\Scripts\activate`
 
-# Untuk macOS/Linux
+## Untuk macOS/Linux
 `python3 -m venv venv
 source venv/bin/activate`
 
@@ -37,8 +36,7 @@ Proyek ini menggunakan beberapa library Python. Anda dapat menginstalnya dengan 
 
 Cara Menjalankan Aplikasi
 
-Setelah instalasi selesai, jalankan perintah berikut dari terminal di direktori utama proyek:
-Bash
+Setelah instalasi selesai, jalankan perintah berikut dari terminal di direktori utama proyek: 
 `
 streamlit run app.py`
 
