@@ -12,8 +12,9 @@ Prasyarat:
     -Python 3.9 atau versi lebih baru.
     -pip dan venv.
 
-Langkah-langkah Instalasi
-    -Clone repository ini:
+Langkah-langkah Instalasi:
+
+-Clone repository ini
 `git clone https://github.com/nama-anda/nama-repo-proyek.git
 cd nama-repo-proyek`
 
@@ -25,14 +26,14 @@ Bash
 .\venv\Scripts\activate`
 
 # Untuk macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+`python3 -m venv venv
+source venv/bin/activate`
 
 Install semua paket yang dibutuhkan:
 Proyek ini menggunakan beberapa library Python. Anda dapat menginstalnya dengan satu perintah menggunakan file requirements.txt.
  `   pip install -r requirements.txt`
 
-    (Catatan: Anda perlu membuat file requirements.txt yang berisi streamlit dan pandas)
+    (Catatan: Anda perlu membuat file requirements.txt yang berisi streamlit dan pandass)
 
 Cara Menjalankan Aplikasi
 
