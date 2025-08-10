@@ -14,15 +14,15 @@ Prasyarat:
 
 Langkah-langkah Instalasi
     -Clone repository ini:
-git clone https://github.com/nama-anda/nama-repo-proyek.git
-cd nama-repo-proyek
+`git clone https://github.com/nama-anda/nama-repo-proyek.git
+cd nama-repo-proyek`
 
 Buat dan aktifkan lingkungan virtual (disarankan):
 Bash
 
 # Untuk Windows
-python -m venv venv
-.\venv\Scripts\activate
+`python -m venv venv
+.\venv\Scripts\activate`
 
 # Untuk macOS/Linux
 python3 -m venv venv
@@ -30,7 +30,7 @@ source venv/bin/activate
 
 Install semua paket yang dibutuhkan:
 Proyek ini menggunakan beberapa library Python. Anda dapat menginstalnya dengan satu perintah menggunakan file requirements.txt.
-    pip install -r requirements.txt
+ `   pip install -r requirements.txt`
 
     (Catatan: Anda perlu membuat file requirements.txt yang berisi streamlit dan pandas)
 
@@ -38,7 +38,7 @@ Cara Menjalankan Aplikasi
 
 Setelah instalasi selesai, jalankan perintah berikut dari terminal di direktori utama proyek:
 Bash
-
-streamlit run app.py
+`
+streamlit run app.py`
 
 Aplikasi akan terbuka secara otomatis di browser default Anda. Anda dapat langsung berinteraksi dengan widget di sidebar untuk mengatur simulasi dan menekan tombol "Jalankan Simulasi Evolusi" untuk melihat hasilnya.
